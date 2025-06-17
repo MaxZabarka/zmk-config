@@ -96,10 +96,10 @@
 
         layer_3 {
             bindings = <
-&trans  &kp PLUS       &kp LS(LT)     &kp LS(GT)    &kp LS(DQT)  &kp LS(QMARK)    &kp LS(AMPS)   &kp GRAVE      &kp LBKT      &kp RBKT      &kp LS(PRCNT)  &trans
-&trans  &kp LS(EXCL)   &kp MINUS      &kp APOS      &kp EQUAL    &kp SLASH        &kp LS(PIPE)   &kp LS(COLON)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(UNDER)  &trans
-&trans  &kp LS(CARET)  &kp LS(POUND)  &kp ASTERISK  &kp PIPE     &trans           &kp LS(TILDE)  &kp LS(DLLR)   &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(AT)     &trans
-                                      &trans        &kp SPACE    &trans           &kp RET        &kp BSPC       &trans
+&trans  &kp PLUS       &kp LS(LT)     &kp LS(GT)    &kp LS(DQT)  &kp LS(QMARK)    &kp LS(AMPS)   &kp GRAVE              &kp LBKT      &kp RBKT      &kp LS(PRCNT)  &trans
+&trans  &kp LS(EXCL)   &kp MINUS      &kp APOS      &kp EQUAL    &kp SLASH        &kp LS(PIPE)   &kp LS(COLON)          &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(UNDER)  &trans
+&trans  &kp LS(CARET)  &kp LS(POUND)  &kp ASTERISK  &kp PIPE     &kp DOLLAR       &kp LS(TILDE)  &kp LS(DOUBLE_QUOTES)  &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(AT)     &trans
+                                      &trans        &kp SPACE    &trans           &kp RET        &kp BSPC               &trans
             >;
         };
 
