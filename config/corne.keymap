@@ -50,9 +50,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none    &kp Q        &kp W     &kp E     &kp R             &kp T             &kp Y            &kp U              &kp I      &kp O    &kp P                &kp BSPC
-&kp TAB  &hm LCTRL A  &hml 4 S  &hml 2 D  &hm LEFT_SHIFT F  &hm LEFT_ALT G    &hm RIGHT_ALT H  &hm RIGHT_SHIFT J  &hml 2 K   &kp L    &hm RCTRL SEMICOLON  &kp SQT
-&none    &kp Z        &kp X     &kp C     &hm LEFT_META V   &kp B             &kp N            &hm RIGHT_META M   &kp COMMA  &kp DOT  &kp FSLH             &kp ESC
+&none    &kp Q        &kp W     &kp E     &kp R             &kp T             &kp Y            &kp U              &kp I      &kp O    &kp P                &none
+&kp TAB  &hm LCTRL A  &hml 4 S  &hml 2 D  &hm LEFT_SHIFT F  &hm LEFT_ALT G    &hm RIGHT_ALT H  &hm RIGHT_SHIFT J  &hml 2 K   &kp L    &hm RCTRL SEMICOLON  &none
+&none    &kp Z        &kp X     &kp C     &hm LEFT_META V   &kp B             &kp N            &hm RIGHT_META M   &kp COMMA  &kp DOT  &none                &none
                                 &none     &none             &kp SPACE         &kp RET          &kp BACKSPACE      &none
             >;
         };
