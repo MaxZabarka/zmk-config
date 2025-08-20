@@ -1,0 +1,8 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <shields/corne/corne_left.overlay>
+#include "corne_trackpad.dtsi"
