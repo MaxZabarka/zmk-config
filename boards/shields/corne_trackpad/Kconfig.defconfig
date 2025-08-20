@@ -1,20 +1,20 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_CORNE_TRACKPAD_LEFT
+if SHIELD_CORNE_TP_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Corne Trackpad"
+	default "Corne TP"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 
 endif
 
-if SHIELD_CORNE_TRACKPAD_RIGHT
+if SHIELD_CORNE_TP_RIGHT
 
 config ZMK_KEYBOARD_NAME
-	default "Corne Trackpad"
+	default "Corne TP"
 
 config ZMK_POINTING
 	default y
@@ -24,7 +24,7 @@ config I2C
 
 endif
 
-if SHIELD_CORNE_TRACKPAD_LEFT || SHIELD_CORNE_TRACKPAD_RIGHT
+if SHIELD_CORNE_TP_LEFT || SHIELD_CORNE_TP_RIGHT
 
 config ZMK_SPLIT
 	default y
