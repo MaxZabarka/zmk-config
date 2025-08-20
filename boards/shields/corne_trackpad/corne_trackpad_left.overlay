@@ -6,3 +6,7 @@
 
 #include <shields/corne/corne_left.overlay>
 #include "corne_trackpad.dtsi"
+
+&glidepoint_listener {
+    status = "okay";
+};
